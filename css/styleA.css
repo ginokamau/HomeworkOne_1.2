@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+/* .rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); 
+}*/
+
+
+body{
+    font-family: 'Squada One', cursive;
+    font-family: 'Arsenal', sans-serif;
+    background: #000000;
+    color: #dddddd;
+    font-size: 24px;
+
+}
+.logo{
+    color: #000000;
+    background: #c0af81;
+    padding: 5px;
+    font-variant: small-caps;
+    text-align: center;
+    outline-offset: 5px;
+    position: absolute;
+    left: 150px;
+    font-family: 'Squada One', cursive;
+    font-size: 30px;
+    line-height: 18px;
+    z-index: 2;
+
+}
+nav{
+    background: #000000;
+    padding-right: 300px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    /* position: fixed; *
+    top: 0;
+    width: 100%;
+    /* border-bottom: #dddddd 5px; */
+  
+}
+li{
+    float: right; 
+    display: inline;
+
+}
+
+li a {
+    display: block;
+    color: #dddddd;
+    text-align: center;
+    padding: 14px 32px;
+    text-decoration: none;
+    /* margin-right: 200px; */
+
+}
+  
+  li a:hover:not(.active) {
+    color: #000000;  
+    background-color: #c0af81;
+  }
+  
+  .active {
+    background-color: rgb(136, 100, 1);
+    color: #dddddd;
+  
+}
+h1{
+    text-align: center;
+    font-family: 'Squada One', cursive;
+    color: #c0af81;    
+
+}
+.page_body{
+    width: 960px;
+    /* border-left: #dddddd; */
+    /* border-right: #dddddd; */
+    margin-left: 150px;
+    margin-right: 200px;
+
+}
+.page_content{
+    width: 930px;
+
+}
+img{
+    rotate: 90deg;
+    position: relative;
+    border: #c0af81 5px;
+    /* padding: 20px; */
+
+}
+
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+  }
+  .txtb{
+    border:1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+  }
+  .txtb label{
+    display: block;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+  }
+  .btn{
+    display: inline-block;
+    background: #c0af81;
+    padding: 14px 0;
+    color: #dddddd;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+  }
+
+
+
+  
